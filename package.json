@@ -1,0 +1,32 @@
+{
+  "name": "urbanairshiptest",
+  "version": "1.0.0",
+  "description": "A quick demo for a simple backend",
+  "main": "webserver.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "npm-run-all": "^4.1.3"
+  },
+  "scripts": {
+    "start": "node webserver.js",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon webserver.js",
+    "dev:client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeithSilcock/urbanAirshipTest.git"
+  },
+  "author": "Keith Silcock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeithSilcock/urbanAirshipTest/issues"
+  },
+  "homepage": "https://github.com/KeithSilcock/urbanAirshipTest#readme"
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <title>Urban Airship Hiring</title>
+</head>
+
+<body>
+
+    <div class="container top-spacer">
+        <div class="hidden">
+            Hello, viewer of source! For application instructions, execute "hireMe()" in the JavaScript console.
+        </div>
+        <div rel="instructions" class="hidden">
+            <h1>Apply to Urban Airship's Web Team!</h1>
+
+            <h2>First, send us a request.</h2>
+            <p>
+                Send an HTTP POST request to
+                <code><span class="url-origin"></span>/api/candidates</code>.
+            </p>
+            <p>
+                Your first request will fail, but the response will tell you how to fix it.
+            </p>
+            <p>
+                Once you succeed, the response will include a unique identifier.
+            </p>
+
+            <h2>Next, write a cover letter.</h2>
+            <p>
+                Tell us why you'd like to work with us.
+            </p>
+            <p>
+                Include your unique ID and the source code or command-line invocation you used to send your POST request. That might make
+                your cover letter long. That's okay!
+            </p>
+
+            <h2>Finally, submit your cover letter with your application.</h2>
+            <p>
+                Complete the application process wherever you found the posting that led you here.
+            </p>
+            <p>
+                We'll get back to you as soon as we can!
+            </p>
+            <button id="send" onclick="send()">Press me to apply!</button>
+        </div>
+    </div>
+</body>
+
+</html>
