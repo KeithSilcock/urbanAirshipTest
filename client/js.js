@@ -13,8 +13,6 @@ function hireMe() {
 }
 
 function send() {
-  //   var xhr = new XMLHttpRequest();
-  //   xhr.open("POST", "http://localhost:9000/apply", true);
   let keithSilcock = {
     like: "ReduxJS, camping, Dungeons and Dragons",
     name: "Keith Silcock",
@@ -29,20 +27,6 @@ function send() {
       }
     }
   });
-
-  //   xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  //   xhr.onload = function() {
-  //     console.log(this.responseText);
-  //   };
-
-  //   xhr.send(
-  //     keithSilcock
-  // JSON.stringify({
-  //   like: "ReduxJS, camping, Dungeons and Dragons",
-  //   name: "Keith Silcock",
-  //   positions: "Web Engineer at Urban Airship"
-  // })
-  //   );
 }
 
 function setText(className, text) {
